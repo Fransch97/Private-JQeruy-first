@@ -43,4 +43,18 @@ $(document).ready(function(){
     $('#btn-fadeToggle').click(()=>{
         $('#fadeTog').fadeToggle(3000)
     })
+
+    $('#slides-down').click(()=>{
+        console.log("working")
+        $('#divdown').slideDown(2000)
+    })
+
+    $('#slides-up').click(()=>{
+        $('#divdown').slideUp(2000)
+    })
+
+    $('#slides-toggle').click(()=>{
+        console.log("working")
+        $('#divtog').slideToggle()
+    })
 })
