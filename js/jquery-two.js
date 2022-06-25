@@ -21,6 +21,7 @@ $(document).ready(()=>{
 
     var tot = 1;
     $('#append').click(()=>{
-        $('.list').append(`<li>${tot += 1}</li>`)
+        $('.list').append(`<li style="padding: 20px;">${tot += 1}</li>`)
     })
+    $('li').click(function(){$(this).remove()})
 })
