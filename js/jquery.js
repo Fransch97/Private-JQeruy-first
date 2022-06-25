@@ -28,6 +28,19 @@ $(document).ready(function(){
         $('h3').toggle()
     })
 
+    $('#btn-fadeIn').click(()=>{
+        $('#fade-one').fadeIn()
+        $('#fade-two').fadeIn('slow')
+        $('#fade-three').fadeIn()
+    })
 
+    $('#btn-fadeOut').click(()=>{
+        $('#fade-one').fadeOut()
+        $('#fade-two').fadeOut('slow')
+        $('#fade-three').fadeOut()
+    })
 
+    $('#btn-fadeToggle').click(()=>{
+        $('#fadeTog').fadeToggle(3000)
+    })
 })
