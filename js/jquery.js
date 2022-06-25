@@ -21,7 +21,11 @@ $(document).ready(function(){
     })
 
     $('.on').on("click",function(){
-        $(this).hide()
+        $(this).hide(500)
+    })
+
+    $('.toggle').click(()=>{
+        $('h3').toggle()
     })
 
 
