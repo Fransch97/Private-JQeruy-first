@@ -1,7 +1,9 @@
 
-$('.two').hide();
+$(document).ready(function(){
+    $('.two').hide();
 
-$('button').click(function(){
-    $('.one').hide();
-    $('.two').show();
+    $('button').click(function(){
+        $('.one').hide();
+        $('.two').show();
+    })
 })
