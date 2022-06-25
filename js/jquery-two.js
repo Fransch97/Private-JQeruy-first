@@ -15,7 +15,8 @@ $(document).ready(()=>{
     })
 
     $('#la').click(()=>{
-        console.log($('input').val())
+        console.log($('input').val());
+        $('#setme').text($('input').val())
     })
 
 })
