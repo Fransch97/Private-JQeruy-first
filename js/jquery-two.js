@@ -19,4 +19,8 @@ $(document).ready(()=>{
         $('#setme').text($('input').val())
     })
 
+    var tot = 1;
+    $('#append').click(()=>{
+        $('.list').append(`<li>${tot += 1}</li>`)
+    })
 })
